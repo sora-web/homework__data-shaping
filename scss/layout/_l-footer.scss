@@ -3,6 +3,9 @@
 @use "../utility/rem" as rem;
 
 .l-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #020929;

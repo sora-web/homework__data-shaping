@@ -12,7 +12,6 @@
 @use "utility/flex";
 @use "utility/only";
 @use "utility/margin";
-@use "utility/padding";
 @use "utility/strip-unit";
 @use "utility/vw";
 @use "utility/rem";
@@ -34,15 +33,6 @@
 @use "object/component/background";
 @use "object/component/heading";
 @use "object/component/text";
+@use "object/component/table";
 
 // //project
-
-@use "object/project/header";
-@use "object/project/mv";
-@use "object/project/feature";
-@use "object/project/works";
-@use "object/project/contact";
-@use "object/project/footer";
-@use "object/project/child-dentistry/contact-page";
-@use "object/project/child-dentistry/about-us-page";
-@use "object/project/child-dentistry/works-page";

@@ -8,8 +8,9 @@ html {
   box-sizing: border-box;
 
   body {
-    color: #1a1a1a;
     position: relative;
+    flex-flow: column;
+    min-height: 100vh;
 
     ::selection {
       background: #dae7f7;

@@ -4,4 +4,16 @@
 @use "../../utility/align" as align;
 @use "../../utility/rem" as rem;
 @use "../../utility/font" as font;
-@use "../../utility/vw" as vw;
+
+.c-table__wrapper {
+  display: flex;
+  width: 900px;
+}
+
+.c-table__list {
+  width: calc(100% / 3);
+}
+
+.c-bgc--gray {
+  background-color: gray;
+}

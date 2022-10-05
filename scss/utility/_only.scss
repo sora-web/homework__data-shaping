@@ -7,22 +7,6 @@
 on/off
 -----------------------------------------------------*/
 
-// @each $responsive in list.$responsiveList {
-//   .#{$responsive}-on {
-//     @include responsive.responsive($responsive) {
-//       display: block;
-//     }
-//   }
-// }
-
-// @each $responsive in list.$responsiveList {
-//   .#{$responsive}-off {
-//     @include responsive.responsive($responsive) {
-//       display: none;
-//     }
-//   }
-// }
-
 @each $responsive in list.$responsiveList {
   .#{$responsive}-on {
     display: none;
