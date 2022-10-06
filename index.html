@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title></title>
+    <title>data-shaping</title>
   </head>
 
   <body>
@@ -14,16 +14,16 @@
     <!-- //header -->
     <!-- main -->
     <main>
-      <div class="c-table__wrapper c-bgc--gray lg-mb30">
-        <div class="c-table__list title-heading">title</div>
-        <div class="c-table__list category-heading">category</div>
-        <div class="c-table__list tags_title-heading">tags</div>
-      </div>
-      <div class="c-table__wrapper">
-        <ul class="c-table__list" id="title"></ul>
-        <ul class="c-table__list" id="category"></ul>
-        <ul class="c-table__list" id="tags_title"></ul>
-      </div>
+      <table class="c-table__wrapper">
+        <thead mb>
+          <tr>
+            <th class="c-table__list title-heading">title</th>
+            <th class="c-table__list category-heading">category</th>
+            <th class="c-table__list tags_title-heading">tags</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
     </main>
     <!-- //main -->
     <!-- footer -->

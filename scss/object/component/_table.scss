@@ -6,14 +6,49 @@
 @use "../../utility/font" as font;
 
 .c-table__wrapper {
-  display: flex;
-  width: 900px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+  border: 1px solid #0f0f0f;
+
+  thead {
+    text-align: left;
+    background-color: gray;
+  }
+  th {
+    padding: 20px 20px;
+    width: calc(100% / 3);
+    font-weight: normal;
+  }
+  td {
+    padding: 20px 20px;
+  }
+  tr {
+    border-bottom: 1px solid #0f0f0f;
+  }
 }
 
-.c-table__list {
+.c-table__data {
   width: calc(100% / 3);
 }
 
-.c-bgc--gray {
-  background-color: gray;
+.c-table__item {
+  position: relative;
+  margin-bottom: 10px;
+  &::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -12px;
+    border-radius: 50%;
+    width: 0.3em;
+    height: 0.3em;
+    background: #0f0f0f;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
